@@ -9,5 +9,5 @@ public interface PassphraseRepository extends CrudRepository<Passphrase, Long> {
   Optional<Passphrase> getFirstByKey(String key);
 
   Iterable<Passphrase> getAllByOrderByKeyAsc();
-
+//TODO define methods that include User.
 }
